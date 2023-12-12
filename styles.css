@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 5px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
@@ -32,10 +32,19 @@ img {
   width: 80%;
 }
 
-footer {
+.button {
   margin-top: 5%;
-  color: #EEEEEE;
+  display: flex;
+ justify-content: center;
+  align-items: center;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+
+}
+button{
+  height: 40px;
+  width: 100px;
+  background-color: #4ECCA3;
+  border: none;
+  border-radius: 2px;
 
 }
